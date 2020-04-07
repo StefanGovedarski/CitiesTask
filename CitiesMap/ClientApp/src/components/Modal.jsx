@@ -35,9 +35,6 @@ class Modal extends Component {
                     <div className="modal-content">
                         <div className="modal-header">
                             <h5 className="modal-title">City</h5>
-                            <button type="button" className="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
                         </div>
                         <div className="modal-body">
                             <p><span className="modal-lable">Name:</span><input value={this.state.name} onChange={(e) => this.nameHandler(e)} /></p>
