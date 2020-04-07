@@ -1,0 +1,26 @@
+/* Provide sufficient contrast against white background */
+.content-container {
+    max-height: 400px;
+    overflow: auto;
+    border: 1px solid black;
+    max-width: 750px;
+    margin: 20px;
+} 
+
+.new-btn {
+    padding:5px;
+}
+
+.btn-wrapper{
+    text-align: center;
+}
+
+code {
+    color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
